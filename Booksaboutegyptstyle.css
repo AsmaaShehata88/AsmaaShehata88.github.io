@@ -1,0 +1,72 @@
+@font-face {
+    font-family: kablammo;
+    src: url(./Fonts/Kablammo-Regular-VariableFont_MORF.ttf);
+}
+body{
+    background-color: rgb(232, 201, 160);
+}
+.bedaya{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-bottom: 2px solid;
+}
+
+h2{
+    font-size: xx-large;
+    font-style: initial;
+    color: rgb(39, 34, 6);
+    font-family: kablammo;
+}
+   
+.subscribe-btn{
+background-color: rgb(180, 115, 60);
+font-size: large;
+border: none;
+color: white;
+margin-top: 30px;
+padding: 10px 20px;
+text-align: right;
+text-decoration: none;
+cursor: pointer;
+border-radius: 4px;
+}
+
+
+h3{
+    font-family: cursive;
+    font-size: xx-large;
+    
+}
+p{
+    font-family: cursive;
+    color: rgb(9, 78, 78);
+    text-align: left;
+
+}
+.books img{
+    height: 300px;
+    width: 300px;
+    border: 10px solid #ddd;
+    border-radius: 2px;
+    padding: 30px;
+    align-items: center;
+   
+}
+img :hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    list-style-type: none;
+    justify-content: center;
+    margin: 0 auto;
+}
+a{
+    font-family: kablammo;
+    font-size: xx-large;
+}
